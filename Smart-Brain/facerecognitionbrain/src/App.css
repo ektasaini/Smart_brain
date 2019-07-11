@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.particles{
+   position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  /*is in background only 
+  what layer should be image on
+  here we want it to be below everthing*/
+}
